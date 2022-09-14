@@ -12,19 +12,6 @@
           "bin/placeholder/AL_SPA.CoreBusiness.dll": {}
         }
       },
-      "AL_SPA.Plugins.InMemory/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AL_SPA.UseCases": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/AL_SPA.Plugins.InMemory.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AL_SPA.Plugins.InMemory.dll": {}
-        }
-      },
       "AL_SPA.UseCases/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -43,23 +30,17 @@
   "libraries": {
     "AL_SPA.CoreBusiness/1.0.0": {
       "type": "project",
-      "path": "../AL_SPA.CoreBusiness/AL_SPA.CoreBusiness.csproj",
-      "msbuildProject": "../AL_SPA.CoreBusiness/AL_SPA.CoreBusiness.csproj"
-    },
-    "AL_SPA.Plugins.InMemory/1.0.0": {
-      "type": "project",
-      "path": "../AL_SPA.Plugins/AL_SPA.Plugins.InMemory/AL_SPA.Plugins.InMemory.csproj",
-      "msbuildProject": "../AL_SPA.Plugins/AL_SPA.Plugins.InMemory/AL_SPA.Plugins.InMemory.csproj"
+      "path": "../../AL_SPA.CoreBusiness/AL_SPA.CoreBusiness.csproj",
+      "msbuildProject": "../../AL_SPA.CoreBusiness/AL_SPA.CoreBusiness.csproj"
     },
     "AL_SPA.UseCases/1.0.0": {
       "type": "project",
-      "path": "../AL_SPA.UseCases/AL_SPA.UseCases.csproj",
-      "msbuildProject": "../AL_SPA.UseCases/AL_SPA.UseCases.csproj"
+      "path": "../../AL_SPA.UseCases/AL_SPA.UseCases.csproj",
+      "msbuildProject": "../../AL_SPA.UseCases/AL_SPA.UseCases.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AL_SPA.Plugins.InMemory >= 1.0.0",
       "AL_SPA.UseCases >= 1.0.0"
     ]
   },
@@ -69,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.BlazorServer\\AL_SPA.BlazorServer.csproj",
-      "projectName": "AL_SPA.BlazorServer",
-      "projectPath": "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.BlazorServer\\AL_SPA.BlazorServer.csproj",
+      "projectUniqueName": "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.Plugins\\AL_SPA.Plugins.InMemory\\AL_SPA.Plugins.InMemory.csproj",
+      "projectName": "AL_SPA.Plugins.InMemory",
+      "projectPath": "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.Plugins\\AL_SPA.Plugins.InMemory\\AL_SPA.Plugins.InMemory.csproj",
       "packagesPath": "C:\\Users\\User.LAPTOP-LJ8HT7OG\\.nuget\\packages\\",
-      "outputPath": "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.BlazorServer\\obj\\",
+      "outputPath": "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.Plugins\\AL_SPA.Plugins.InMemory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User.LAPTOP-LJ8HT7OG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,9 +71,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.Plugins\\AL_SPA.Plugins.InMemory\\AL_SPA.Plugins.InMemory.csproj": {
-              "projectPath": "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.Plugins\\AL_SPA.Plugins.InMemory\\AL_SPA.Plugins.InMemory.csproj"
-            },
             "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.UseCases\\AL_SPA.UseCases.csproj": {
               "projectPath": "D:\\c#portfolll\\AzurLaneSPA\\AL_SPA.UseCases\\AL_SPA.UseCases.csproj"
             }
@@ -119,9 +97,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -1,4 +1,6 @@
 using AL_SPA.BlazorServer.Data;
+using AL_SPA.Plugins.InMemory;
+using AL_SPA.UseCases.PluginInterfaces;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -9,6 +11,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 
+builder.Services.AddSingleton<IInventoryRepository, InventoryRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
