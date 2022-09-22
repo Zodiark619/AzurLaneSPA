@@ -1,0 +1,12 @@
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\bin\Debug\net6.0\ASP.CoreBusiness.deps.json
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\bin\Debug\net6.0\ASP.CoreBusiness.dll
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\bin\Debug\net6.0\ASP.CoreBusiness.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\ASP.CoreBusiness.csproj.AssemblyReference.cache
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\ASP.CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\ASP.CoreBusiness.AssemblyInfoInputs.cache
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\ASP.CoreBusiness.AssemblyInfo.cs
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\ASP.CoreBusiness.csproj.CoreCompileInputs.cache
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\ASP.CoreBusiness.dll
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\refint\ASP.CoreBusiness.dll
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\ASP.CoreBusiness.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.CoreBusiness\obj\Debug\net6.0\ref\ASP.CoreBusiness.dll

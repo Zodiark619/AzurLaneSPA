@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ASP.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ASP.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASP.CoreBusiness.dll": {}
+        }
+      },
+      "ASP.Plugins.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ASP.UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ASP.Plugins.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASP.Plugins.InMemory.dll": {}
+        }
+      },
+      "ASP.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ASP.CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ASP.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASP.UseCases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASP.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../ASP.CoreBusiness/ASP.CoreBusiness.csproj",
+      "msbuildProject": "../ASP.CoreBusiness/ASP.CoreBusiness.csproj"
+    },
+    "ASP.Plugins.InMemory/1.0.0": {
+      "type": "project",
+      "path": "../ASP.Plugins/ASP.Plugins.InMemory/ASP.Plugins.InMemory/ASP.Plugins.InMemory.csproj",
+      "msbuildProject": "../ASP.Plugins/ASP.Plugins.InMemory/ASP.Plugins.InMemory/ASP.Plugins.InMemory.csproj"
+    },
+    "ASP.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../ASP.UseCases/ASP.UseCases.csproj",
+      "msbuildProject": "../ASP.UseCases/ASP.UseCases.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ASP.Plugins.InMemory >= 1.0.0",
+      "ASP.UseCases >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User.LAPTOP-LJ8HT7OG\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\c#portfolll\\AzurLaneSPA\\ASP.WebApp\\ASP.WebApp.csproj",
+      "projectName": "ASP.WebApp",
+      "projectPath": "D:\\c#portfolll\\AzurLaneSPA\\ASP.WebApp\\ASP.WebApp.csproj",
+      "packagesPath": "C:\\Users\\User.LAPTOP-LJ8HT7OG\\.nuget\\packages\\",
+      "outputPath": "D:\\c#portfolll\\AzurLaneSPA\\ASP.WebApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User.LAPTOP-LJ8HT7OG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\c#portfolll\\AzurLaneSPA\\ASP.Plugins\\ASP.Plugins.InMemory\\ASP.Plugins.InMemory\\ASP.Plugins.InMemory.csproj": {
+              "projectPath": "D:\\c#portfolll\\AzurLaneSPA\\ASP.Plugins\\ASP.Plugins.InMemory\\ASP.Plugins.InMemory\\ASP.Plugins.InMemory.csproj"
+            },
+            "D:\\c#portfolll\\AzurLaneSPA\\ASP.UseCases\\ASP.UseCases.csproj": {
+              "projectPath": "D:\\c#portfolll\\AzurLaneSPA\\ASP.UseCases\\ASP.UseCases.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
