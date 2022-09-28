@@ -1,0 +1,17 @@
+﻿@page "/waifus"
+
+
+<h3>Waifus ShipList</h3>
+<br />
+<SearchWaifusComponent WaifuNameToSearch="WaifuNameToSearchResult"></SearchWaifusComponent>
+
+<br />
+<WaifuListComponent WaifusResult="@results"></WaifuListComponent>
+@code {
+	private string results;
+
+	private void WaifuNameToSearchResult(string name)
+	{
+		this.results = name;
+	}
+}

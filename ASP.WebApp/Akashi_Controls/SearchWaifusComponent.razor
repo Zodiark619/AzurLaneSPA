@@ -1,0 +1,25 @@
+﻿
+<h1>Azur Lane Waifus</h1>
+<br />
+
+<div class="input-group">
+	<input type="text" class="form-control" placeholder="Type waifu's name here" @bind-value="waifuTextInput"/>
+	<button type="button" class="btn-dark input-group-text" @onclick="WaifusSearchName">Haiyaaa!</button>
+</div>
+
+
+
+@code {
+
+	private string waifuTextInput;
+
+	[Parameter]
+	public EventCallback<string> WaifuNameToSearch{ get; set; }
+
+	private void WaifusSearchName()
+	{
+		WaifuNameToSearch.InvokeAsync(waifuTextInput);
+	}
+
+
+}

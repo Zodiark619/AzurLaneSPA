@@ -1,0 +1,15 @@
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\bin\Debug\net6.0\ConsoleApp1_exercises.exe
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\bin\Debug\net6.0\ConsoleApp1_exercises.deps.json
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\bin\Debug\net6.0\ConsoleApp1_exercises.runtimeconfig.json
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\bin\Debug\net6.0\ConsoleApp1_exercises.dll
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\bin\Debug\net6.0\ConsoleApp1_exercises.pdb
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ConsoleApp1_exercises.csproj.AssemblyReference.cache
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ConsoleApp1_exercises.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ConsoleApp1_exercises.AssemblyInfoInputs.cache
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ConsoleApp1_exercises.AssemblyInfo.cs
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ConsoleApp1_exercises.csproj.CoreCompileInputs.cache
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ConsoleApp1_exercises.dll
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\refint\ConsoleApp1_exercises.dll
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ConsoleApp1_exercises.pdb
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ConsoleApp1_exercises.genruntimeconfig.cache
+D:\c#portfolll\AzurLaneSPA\ConsoleApp1_exercises\obj\Debug\net6.0\ref\ConsoleApp1_exercises.dll

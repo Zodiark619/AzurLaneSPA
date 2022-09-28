@@ -18,15 +18,15 @@ namespace ASP.Plugins.InMemory
             { 
                 new ShipWaifu
                 {
-                    Name="Akagi",Class=Class.Aircraft_Carrier,Faction=Faction.Sakura_Empire,Rarity=Rarity.Super_Rare
+                    Id=1,Name="Akagi",Class=Class.Aircraft_Carrier,Faction=Faction.Sakura_Empire,Rarity=Rarity.Super_Rare
                 },
                 new ShipWaifu
                 {
-                    Name="Kaga",Class=Class.Aircraft_Carrier,Faction=Faction.Sakura_Empire,Rarity=Rarity.Super_Rare
+                    Id=2,Name="Kaga",Class=Class.Aircraft_Carrier,Faction=Faction.Sakura_Empire,Rarity=Rarity.Super_Rare
                 },
                 new ShipWaifu
                 {
-                    Name="Aulick",Class=Class.Destroyer,Faction=Faction.Eagle_Union,Rarity=Rarity.Common
+                    Id=3,Name="Aulick",Class=Class.Destroyer,Faction=Faction.Eagle_Union,Rarity=Rarity.Common
                 },
                 /*
     akagi aircraft carrier super rare sakura empire
@@ -39,28 +39,35 @@ namespace ASP.Plugins.InMemory
     */
                 new ShipWaifu
                 {
-                    Name="Jersey",Class=Class.Destroyer,Faction=Faction.Royal_Navy,Rarity=Rarity.Rare
+                    Id=4,Name="Jersey",Class=Class.Destroyer,Faction=Faction.Royal_Navy,Rarity=Rarity.Rare
                 },
                 new ShipWaifu
                 {
-                    Name="Queen Elizabeth",Class=Class.Battleship,Faction=Faction.Royal_Navy,Rarity=Rarity.Elite
+                    Id=5,Name="Queen Elizabeth",Class=Class.Battleship,Faction=Faction.Royal_Navy,Rarity=Rarity.Elite
                 },
                 new ShipWaifu
                 {
-                    Name="Illustrious",Class=Class.Aircraft_Carrier,Faction=Faction.Royal_Navy,Rarity=Rarity.Super_Rare
+                    Id=6,Name="Illustrious",Class=Class.Aircraft_Carrier,Faction=Faction.Royal_Navy,Rarity=Rarity.Super_Rare
                 },
                 new ShipWaifu
                 {
-                    Name="Prinz Eugen",Class=Class.Heavy_Cruiser,Faction=Faction.Iron_Blood,Rarity=Rarity.Super_Rare
+                    Id=7,Name="Prinz Eugen",Class=Class.Heavy_Cruiser,Faction=Faction.Iron_Blood,Rarity=Rarity.Super_Rare
                 },
             };
         }
 
         public async Task<IEnumerable<ShipWaifu>> GetWaifuNameAsync(string name)
         {
-            if (!string.IsNullOrWhiteSpace(name)) return await Task.FromResult(_waifus);
 
-            return _waifus.Where(x => x.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+            if (string.IsNullOrWhiteSpace(name)) return await Task.FromResult(_waifus);
+            return _waifus.Where(x => x.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
+
+           /* if (string.IsNullOrWhiteSpace(name)) 
+
+                return _waifus.Where(x => x.Class.Equals(_class)).Where(x => x.Faction.Equals(_faction)).Where(x => x.Rarity.Equals(_rarity));
+
+            return _waifus.Where(x => x.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).Where(x => x.Class.Equals(_class)).Where(x => x.Faction.Equals(_faction)).Where(x => x.Rarity.Equals(_rarity));
+        */
         }
     }
 }

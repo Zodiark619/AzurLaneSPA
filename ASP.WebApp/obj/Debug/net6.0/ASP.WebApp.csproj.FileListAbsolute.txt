@@ -25,3 +25,10 @@ D:\c#portfolll\AzurLaneSPA\ASP.WebApp\obj\Debug\net6.0\refint\ASP.WebApp.dll
 D:\c#portfolll\AzurLaneSPA\ASP.WebApp\obj\Debug\net6.0\ASP.WebApp.pdb
 D:\c#portfolll\AzurLaneSPA\ASP.WebApp\obj\Debug\net6.0\ASP.WebApp.genruntimeconfig.cache
 D:\c#portfolll\AzurLaneSPA\ASP.WebApp\obj\Debug\net6.0\ref\ASP.WebApp.dll
+D:\c#portfolll\AzurLaneSPA\ASP.WebApp\bin\Debug\net6.0\ASP.CoreBusiness.dll
+D:\c#portfolll\AzurLaneSPA\ASP.WebApp\bin\Debug\net6.0\ASP.Plugins.InMemory.dll
+D:\c#portfolll\AzurLaneSPA\ASP.WebApp\bin\Debug\net6.0\ASP.UseCases.dll
+D:\c#portfolll\AzurLaneSPA\ASP.WebApp\bin\Debug\net6.0\ASP.Plugins.InMemory.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.WebApp\bin\Debug\net6.0\ASP.UseCases.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.WebApp\bin\Debug\net6.0\ASP.CoreBusiness.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.WebApp\obj\Debug\net6.0\ASP.WebApp.csproj.CopyComplete

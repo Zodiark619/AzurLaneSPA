@@ -1,0 +1,30 @@
+﻿@inject IShipWaifu_name ShipWaifu_name
+<table class="table"> 
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Rarity</th>
+			<th>Faction</th>
+			<th>Class</th>
+			<th></th>
+
+		</tr>
+	</thead>
+	<tbody>
+		<WaifuListItemComponent Waifus="waifus"></WaifuListItemComponent>
+	</tbody>
+</table>
+
+
+@code {
+	public List<ShipWaifu> waifus = new List<ShipWaifu>();
+
+	[Parameter]
+	public string WaifusResult{ get; set; }
+
+	protected override async Task OnParametersSetAsync()
+	{
+		waifus = (await ShipWaifu_name.GetAllWaifu(this.WaifusResult)).ToList();
+	}
+
+}

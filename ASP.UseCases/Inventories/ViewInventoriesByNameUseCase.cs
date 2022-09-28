@@ -3,11 +3,11 @@ using ASP.UseCases.PluginInterfaces;
 
 namespace ASP.UseCases.Inventories
 {
-    public class ViewInventoriesByNameUseCase
+    public class ViewInventoriesByNameUseCase : IViewInventoriesByNameUseCase
     {
         private readonly IInventoryRepository inventoryRepository;
 
-        public ViewInventoriesByNameUseCase(IInventoryRepository inventoryRepository )
+        public ViewInventoriesByNameUseCase(IInventoryRepository inventoryRepository)
         {
             this.inventoryRepository = inventoryRepository;
         }

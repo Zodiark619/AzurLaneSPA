@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ASP.Plugins.InMemory/1.0.0": {
+        "dependencies": {
+          "ASP.UseCases": "1.0.0"
+        },
+        "runtime": {
+          "ASP.Plugins.InMemory.dll": {}
+        }
+      },
+      "ASP.CoreBusiness/1.0.0": {
+        "runtime": {
+          "ASP.CoreBusiness.dll": {}
+        }
+      },
+      "ASP.UseCases/1.0.0": {
+        "dependencies": {
+          "ASP.CoreBusiness": "1.0.0"
+        },
+        "runtime": {
+          "ASP.UseCases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASP.Plugins.InMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASP.CoreBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASP.UseCases/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

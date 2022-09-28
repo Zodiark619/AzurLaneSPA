@@ -1,0 +1,23 @@
+﻿
+@if (Waifus != null && Waifus.Count > 0)
+{
+	foreach(var waifu in Waifus)
+		{
+		<tr>
+			<td>@waifu.Name</td>
+			<td>@waifu.Rarity</td>
+			<td>@waifu.Faction</td>
+			<td>@waifu.Class</td>
+			<td><button type="button" class="btn btn-outline-danger">Edit</button></td>
+
+		</tr>	
+		}
+
+}
+
+@code {
+	[Parameter]
+	public List<ShipWaifu> Waifus{ get; set; }
+
+
+}

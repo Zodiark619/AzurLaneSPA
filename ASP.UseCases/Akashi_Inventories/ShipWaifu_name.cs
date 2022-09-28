@@ -8,7 +8,7 @@ using ASP.UseCases.Akashi_PluginInterfaces;
 
 namespace ASP.UseCases.Akashi_Inventories
 {
-    public class ShipWaifu_name
+    public class ShipWaifu_name : IShipWaifu_name
     {
         private readonly IWaifuRepository waifuRepository;
 
@@ -16,7 +16,7 @@ namespace ASP.UseCases.Akashi_Inventories
         {
             this.waifuRepository = waifuRepository;
         }
-        public async Task<IEnumerable<ShipWaifu>> GetAllWaifu(string name)
+        public async Task<IEnumerable<ShipWaifu>> GetAllWaifu(string name="")
         {
             return await waifuRepository.GetWaifuNameAsync(name);
         }

@@ -1,0 +1,17 @@
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\bin\Debug\net6.0\ASP.Plugins.InMemory.deps.json
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\bin\Debug\net6.0\ASP.Plugins.InMemory.dll
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\bin\Debug\net6.0\ASP.Plugins.InMemory.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\bin\Debug\net6.0\ASP.CoreBusiness.dll
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\bin\Debug\net6.0\ASP.UseCases.dll
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\bin\Debug\net6.0\ASP.UseCases.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\bin\Debug\net6.0\ASP.CoreBusiness.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ASP.Plugins.InMemory.csproj.AssemblyReference.cache
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ASP.Plugins.InMemory.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ASP.Plugins.InMemory.AssemblyInfoInputs.cache
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ASP.Plugins.InMemory.AssemblyInfo.cs
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ASP.Plugins.InMemory.csproj.CoreCompileInputs.cache
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ASP.Plugins.InMemory.csproj.CopyComplete
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ASP.Plugins.InMemory.dll
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\refint\ASP.Plugins.InMemory.dll
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ASP.Plugins.InMemory.pdb
+D:\c#portfolll\AzurLaneSPA\ASP.Plugins\ASP.Plugins.InMemory\ASP.Plugins.InMemory\obj\Debug\net6.0\ref\ASP.Plugins.InMemory.dll

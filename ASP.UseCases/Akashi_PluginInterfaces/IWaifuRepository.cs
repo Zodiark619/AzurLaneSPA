@@ -9,6 +9,8 @@ namespace ASP.UseCases.Akashi_PluginInterfaces
 {
     public interface  IWaifuRepository
     {
+        //Task<IEnumerable<ShipWaifu>> GetWaifuNameAsync(string name);
         Task<IEnumerable<ShipWaifu>> GetWaifuNameAsync(string name);
+
     }
 }
